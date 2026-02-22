@@ -6,6 +6,9 @@ metadata:
 spec:
   providerRef:
     name: google-chat
+  eventMetadata:
+    env: test-env
+    cluster: flux-drift-test-cluster
   eventSeverity: info
   eventSources:
     - kind: HelmRelease
