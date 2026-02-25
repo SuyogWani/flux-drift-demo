@@ -14,5 +14,3 @@ spec:
         namespace: flux-system
   values:
     replicaCount: 2
-  driftDetection:
-    mode: enabled
